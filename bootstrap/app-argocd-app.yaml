@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: environments
-    repoURL: https://github.com/kborup-redhat/gitops.git
+    repoURL: https://github.com/hdhibm/gitops.git
     targetRevision: main
   syncPolicy:
     automated:

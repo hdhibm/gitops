@@ -34,7 +34,7 @@ Under helm we have all the helm values required for the setup.
 # This is the name of the application
         applicationName: funtest
 # This is the repo name for the app of app application containing a helm chart. 
-        gitrepoName: https://github.com/kborup-redhat/funtest.git
+        gitrepoName: https://github.com/hdhibm/funtest.git
 # Path to the gitrepo path
         gitrepoPath: funtest
 ```

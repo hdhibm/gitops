@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: charts/controller-branch
-    repoURL: https://github.com/kborup-redhat/gitops.git
+    repoURL: https://github.com/hdhibm/gitops.git
     targetRevision: main
     helm:
       values: |- 
@@ -23,7 +23,7 @@ spec:
           - test
           - prod
         applicationName: funtest
-        gitrepoName: https://github.com/kborup-redhat/funtest.git
+        gitrepoName: https://github.com/hdhibm/funtest.git
         gitrepoPath: funtest 
   syncPolicy:
     automated:
